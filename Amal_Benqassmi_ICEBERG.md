@@ -1,6 +1,8 @@
-## Iceberg Data Storage
+# Iceberg Data Storage
+
 Apache Iceberg is an open table format for huge analytic datasets. Iceberg adds tables to Presto and Spark that use a high-performance format that works just like a SQL table.
 Iceberg is essentially a table format standard designed for massive analysis, which can provide high-performance reading, writing and metadata management capabilities for mainstream computing engines such as Presto and spark. Iceberg does not pay attention to the underlying storage (such as HDFS) and table structure (business definition). It provides an abstraction layer between the two and organizes data and metadata. 
+
 
 
 ![image](https://user-images.githubusercontent.com/95130613/153721376-48c5228d-41e9-4561-8a8f-13fd2729c999.png)
@@ -26,6 +28,7 @@ Iceberg currently supports three file formats: Parquet, Avro, and ORC. files in 
 
 ![image](https://user-images.githubusercontent.com/95130613/153721472-40c469e4-69d6-4663-ba22-46421fd938cb.png)
 
+
 •	Snapshot-based read-write separation and backfill
 
 •	Stream-batch unified write and read
@@ -44,21 +47,27 @@ Apache Iceberg is an open table format for huge analytic datasets. Iceberg adds 
 
 ![image](https://user-images.githubusercontent.com/95130613/153721609-90188b35-22d3-4809-929c-e0db2955360e.png)
 
+
  #### Integrations:
  
  ##### •	AWS
+ 
  Iceberg provides integration with different AWS services through the iceberg-aws module. 
  
  ##### •	Nessie
+ 
 Iceberg provides integration with Nessie through the iceberg-nessie module. This section describes how to use Iceberg with Nessie. Nessie provides several key features on top of Iceberg:
 •	multi-table transactions
 •	git-like operations (eg branches, tags, commits)
 •	hive-like metastore capabilities
 
  ##### •	JDBC
+ 
  Iceberg supports using a table in a relational database to manage Iceberg tables through JDBC. The database that JDBC connects to must support atomic transaction to allow the JDBC catalog implementation to properly support atomic Iceberg table commits and read serializable isolation.
+ 
 ### Ways to deploy it :
-Iceberg on Kubernetes
+
+##### Iceberg on Kubernetes
 
 Kubernetes is responsible for application automation deployment and resource management scheduling, shielding the complexity of the underlying environment for the upper layer. Iceberg + hive Metastore + HDFS implements a real-time data Lake based on Hadoop ecology to provide data access and storage for big data applications. Spark, Flink and other computing engines run in kubernetes cluster in a native way, and resources are available and used immediately. After mixing with online business, it can greatly improve the utilization of cluster resources.
 
@@ -74,6 +83,7 @@ Kubernetes is responsible for application automation deployment and resource man
 
 
 ### Reviews
+
 #### 1.	Support to in place file formats
 
 As we have already discussed Iceberg is not a file format but it’s a table format.
@@ -131,9 +141,12 @@ As e have already discussed the Iceberg supports the versioning. This makes the 
 ### Roadmap
 
 
+
 ![image](https://user-images.githubusercontent.com/95130613/153721912-63f9e028-774f-48e8-80c3-0f9963556902.png)
 
+
 The picture above shows Iceberg's Roadmap. It can be seen that Iceberg only released one version in 2019, but directly released three versions in 2020, and became the top project in version 0.9.0.
+
 
 ![image](https://user-images.githubusercontent.com/95130613/153721931-65f0a5ba-fb48-4f8e-a134-ab99148de137.png)
 
