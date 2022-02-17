@@ -8,7 +8,6 @@
 
 
 
-
   
 # Data products: Apache Drill
 
@@ -17,8 +16,7 @@
 
 ## Brief description 
 
-    Apache Drill is a low latency distributed SQL query engine for big data,        including structured and semi-structured data. Drill provides plug-and-play          integration with existing Apache Hive and Apache HBase deployments. 
-    Drill supports a variety of NoSQL databases and file systems,including MongoDB,HDFS, Amazon S3, Azure Blob Storage, Google Cloud Storage and local files. 
+Apache Drill is a low latency distributed SQL query engine for big data,        including structured and semi-structured data. Drill provides plug-and-play  integration with existing Apache Hive and Apache HBase deployments.  Drill supports a variety of NoSQL databases and file systems,including MongoDB,HDFS, Amazon S3, Azure Blob Storage, Google Cloud Storage and local files. 
 
    - **for more details:** -->see [the apache drill documentation ](https://drill.apache.org/docs/) .
    
@@ -27,8 +25,8 @@
  - **Creation year :**
     - First version:	4 January 2015
     - Latest version:	1.19.0 (June 10, 2021)
-- **Website:** drill.apache.org
-- **Github repository:** github.com/apache/drill
+- **Website:** https://drill.apache.org/
+- **Github repository:** https://github.com/apache/drill
 - **Community channel:** https://drill.apache.org/team/
 
 - **community size:** community of 850,000 professionals 
@@ -45,26 +43,14 @@ Drill includes a distributed execution environment for large-scale data processi
 - Flexible data model
 - Scalability
 - Non-centralized metadata
-[![N|Solid](https://imagizer.imageshack.com/v2/543x332q90/923/I7Nu47.png)](https://nodesource.com/products/nsolid)
+
+ [![N|Solid](https://imagizer.imageshack.com/v2/543x332q90/923/I7Nu47.png)](https://nodesource.com/products/nsolid)
 
 
 ## Available connectors / integrations
 - The Apache Drill Connector loads data into Incorta from Apache Drill datasets using a Java Database Connectivity (JDBC) connection. The Apache Drill connector uses the **org.apache.drill.jdbc.Driver driver**.
 
-- The Apache Drill connector supports the following Incorta specific functionality:
- |  Feature |  Supported | 
-  |:-:    |:-:    |
-|  Chunking   |    | 
-|  Data Agent  |   ✔  |  
-| Encryption at Ingest |     |  
-|   Incremental Load |   ✔    | 
-|  Multi-Source   |    ✔  | 
-| OAuth|    |  
-|  Performance Optimized  |   ✔   | 
-|  Remote       |        |       
-|Single-Source|   ✔  |  
-|  Spark Extraction |     | 
-| Webhook Callbacks |   ✔  |  
+
 
 **-->Steps to connect Apache Drill and Incorta:**
 
@@ -101,7 +87,12 @@ it is therefore supported by all operating systems (Windows, Mac, Mobile OS, etc
 
 
 
-
+ ## References
+- https://drill.apache.org/
+- https://drill.apache.org/docs/
+- https://fr.wikipedia.org/wiki/Apache_Drill
+- https://docs.incorta.com/cloud/references-connectors-apache-drill/#create-a-schema-with-the-schema-wizard
+- https://www.g2.com/products/apache-drill/reviews
 
 
 
