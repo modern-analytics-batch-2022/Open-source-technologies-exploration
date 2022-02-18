@@ -103,3 +103,8 @@ __Bad reviews__ :
 ### Roadmap  
 
 ![roadmap](https://user-images.githubusercontent.com/98336381/154602021-072843fb-d04a-4f7f-a4ff-f50221ddb5e2.png)
+
+### References 
+* Dagsteer Documentation.
+* Dagster blog & Dagster repository on github.
+* these : *A Survey of Big Data Pipeline Orchestration Tools from the Perspective of the DataCloud Project* Link : http://ceur-ws.org/Vol-3036/paper05.pdf
