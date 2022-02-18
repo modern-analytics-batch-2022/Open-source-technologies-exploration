@@ -26,43 +26,48 @@ Elasticsearch fournit un ensemble complet et puissant d'API REST pour effectuer 
 
 ### Available connectors / integrations  
 Elasticsearch utilise des API RESTful et JSON standard. Il offre plusieurs connecteurs pour prendre en charge une multitude de langages de programmation:
-•	Java
-•	JavaScript (Node.js)
-•	Go
-•	.NET (C#)
-•	PHP
-•	Perl
-•	Python
-•	Ruby
+* Java
+* JavaScript (Node.js)
+* Go
+* .NET (C#)
+* PHP
+* Perl
+* Python
+* Ruby
 
 ### Ways to deploy it :
 #### On-prem  
 Elasticsearch peut être téléchargé et installé sur votre propre matériel ou dans le cloud. La documentation Elasticsearch donne des instructions pour télécharger, installer et configurer Elasticsearch.
+
 #### PaaS / SaaS  
 Elasticsearch peut être déployé en tant que service hébergé et géré à travers Elasticsearch Service, disponible sur Amazon Web Services (AWS), Google Cloud et Alibaba Cloud.
 Pour les utilisations souhaitant provisionner, gérer et monitorer leurs déploiements depuis une seule console, mais préfèrent ne pas utiliser une plateforme de cloud public, Elastic propose Elastic Cloud Enterprise (qui peut être déployée sur des clouds privés et publics, des machines virtuelles ou du matériel de serveur physique).
 
 ### Reviews
-#### Good reviews    
-•	Elasticsearch est open source et gratuit
-•	Elasticsearch est rapide
-•	Elasticsearch est hautement distribué
-•	Elasticsearch est naturellement distribué
-•	Elasticsearch dispose d'une multitude de fonctionnalités
-•	La Suite Elastic (ELK Elasticsearch Logstash Kibana) simplifie l'ingestion, la visualisation et le rapport de données. Logstash permet aussi de réaliser des transformations de données puissantes.
+#### Good reviews
+
+* Elasticsearch est open source et gratuit
+* Elasticsearch est rapide
+* Elasticsearch est hautement distribué
+* Elasticsearch est naturellement distribué
+* Elasticsearch dispose d'une multitude de fonctionnalités
+* La Suite Elastic (ELK Elasticsearch Logstash Kibana) simplifie l'ingestion, la visualisation et le rapport de données. Logstash permet aussi de réaliser des transformations de données puissantes.
 
 #### Bad reviews 
-•	Le suivi des erreurs dans les données des journaux peut être difficile, et parfois des erreurs récurrentes font exploser les journaux d'erreurs.
-•	La documentation est parfois complète, mais il semble toujours y avoir des trous dans certains composants.
-•	Tarification : le niveau gratuit est excellent, mais pour intégrer des modules d'apprentissage automatique et la sécurité c’est payant.
+* Le suivi des erreurs dans les données des journaux peut être difficile, et parfois des erreurs récurrentes font exploser les journaux d'erreurs.
+* La documentation est parfois complète, mais il semble toujours y avoir des trous dans certains composants.
+* Tarification : le niveau gratuit est excellent, mais pour intégrer des modules d'apprentissage automatique et la sécurité c’est payant.
 
 
 ### Roadmap  
 
 La conférence officielle des utilisateurs Elasticsearch annonce de nombreux produits et roadmaps, ainsi que des avancements de machine learning et APM (Application Performance Monitoring) :
-•	Elasticsearch : Configuration de tâche périodiques qui « roll-up » ou pré-agrègent les données stockées dans un index et le rendent disponible à la recherche.
-•	Kibana : Nouvelles visualisations avec Canvas et amélioration des capacités de géolocalisation pour intégrer les cartes dans vos tableaux de bord.
-•	APM : Suivre et optimiser la performance de vos applications.
-•	Elastic Cloud et Elastic Cloud Enterprise : Flexibilité augmentée dans l’hébergement et la gestion des clusters
-•	X-Pack : Ouverture du code de X-Pack pour le rendre public. C’est une extension Elastic Stack qui fournit des fonctionnalités de sécurité, d'alerte, de surveillance, de création de rapports, d'apprentissage automatique et de nombreuses autres fonctionnalités.
+
+* Elasticsearch : Configuration de tâche périodiques qui « roll-up » ou pré-agrègent les données stockées dans un index et le rendent disponible à la recherche.
+* Kibana : Nouvelles visualisations avec Canvas et amélioration des capacités de géolocalisation pour intégrer les cartes dans vos tableaux de bord.
+* APM : Suivre et optimiser la performance de vos applications.
+* Elastic Cloud et Elastic Cloud Enterprise : Flexibilité augmentée dans l’hébergement et la gestion des clusters
+* X-Pack : Ouverture du code de X-Pack pour le rendre public. C’est une extension Elastic Stack qui fournit des fonctionnalités de sécurité, d'alerte, de surveillance, de création de rapports, d'apprentissage automatique et de nombreuses autres fonctionnalités.
+
+
 
