@@ -61,7 +61,6 @@ Dagster dispose de nombreuses librairies d'intégration dont les principales son
 * Flocon de neige: dagster-flocon de neige
 * Étincelle : dagster-étincelle
 * SSH/SFTP : dagster-ssh
-* Twilio : dagster-twilio
 
 
 
