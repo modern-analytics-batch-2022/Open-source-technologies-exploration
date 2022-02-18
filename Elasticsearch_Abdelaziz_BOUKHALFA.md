@@ -69,5 +69,11 @@ La conférence officielle des utilisateurs Elasticsearch annonce de nombreux pro
 * Elastic Cloud et Elastic Cloud Enterprise : Flexibilité augmentée dans l’hébergement et la gestion des clusters
 * X-Pack : Ouverture du code de X-Pack pour le rendre public. C’est une extension Elastic Stack qui fournit des fonctionnalités de sécurité, d'alerte, de surveillance, de création de rapports, d'apprentissage automatique et de nombreuses autres fonctionnalités.
 
+### References
 
+* https://www.elastic.co/fr/elastic-stack/
+* https://www.elastic.co/fr/webinars/roadmap-elasticon-2018-recap
+* https://www.elastic.co/fr/elasticon/conf/2017/sf/what-is-evolving-in-elasticsearch
+* https://fr.wikipedia.org/wiki/Elasticsearch
+* https://www.trustradius.com/products/elasticsearch/reviews?qs=pros-and-cons#reviews
 
