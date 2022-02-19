@@ -143,3 +143,11 @@ This Roadmap include:<br>
             - Release V3 docs for customs Expectations 
             - Launch and iterate on Expectations Gallery
 
+## References
+https://greatexpectations.io/
+https://github.com/great-expectations/great_expectations
+https://www.youtube.com/channel/UCpAZim7RRRDFxj2OlEdWsLQv
+https://www.digitalocean.com/community/tutorials/how-to-test-your-data-with-great-expectations
+https://towardsdatascience.com
+https://medium.com/
+
